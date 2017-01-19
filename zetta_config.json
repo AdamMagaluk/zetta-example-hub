@@ -1,0 +1,6 @@
+{
+ "resourceServer": "https://adammagaluk1-prod.apigee.net/v1",
+ "authorizationServer": "https://adammagaluk1-prod.apigee.net/v1/oauth/accesstoken",
+ "uuid": "5c45c25f-6b99-48fb-aaec-a64e5994b102",
+ "key": null
+}
