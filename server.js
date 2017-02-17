@@ -45,7 +45,8 @@ Config.load(configFile, function(err, config) {
   var provisionMode = (!config.accessToken);
   var key = (!config.key) ? process.env.DEFAULT_KEY : config.key;
   var server = zetta()
-      .name(config.uuid)
+  //      .name(config.uuid)
+      .name('KarenHome')
       .properties({style: styleProperties})
       .use(style, styleProperties)
       .link(config.resourceServer)
